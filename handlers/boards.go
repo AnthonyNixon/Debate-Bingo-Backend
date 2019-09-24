@@ -43,7 +43,6 @@ func NewBoard(c *gin.Context) {
 
 	var board types.Board
 	board.Code = string(code)
-	board.Code = "testing"
 
 	board.Bingo = false
 
